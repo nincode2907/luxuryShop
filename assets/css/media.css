@@ -1,0 +1,167 @@
+/*Screen for PC */
+@media (min-width: 64em){
+    #contact a {
+    	opacity: 0.8;
+    }
+
+    #contact a:hover {
+    	opacity: 1;
+    }
+}
+
+/*Screen for Tablet & Mobile*/
+
+@media (max-width: 63.9375em) {
+	.tickets-buy-button {
+		padding: 14px 16px;
+	}
+
+
+    .s-width-full {
+    	width: 100%;
+    }
+
+    #contact .content-send {
+    	padding: 14px 0;
+    }
+
+    #footer .footer-icons {
+	    font-size: 42px;
+	    padding: 0 3px;
+	}
+
+    #footer a {
+	    color: rgba(0, 0, 0, 0.55);
+	    padding: 14px 0;
+	    display: inline-block;
+	}	
+
+	#contact .content-send {
+		-webkit-appearance: none;
+		
+	}
+}
+
+/*Screen for Tablet*/
+
+@media (min-width: 46.1875em) and (max-width: 63.9375em) {
+    
+}
+
+/*Screen for Tablet*/
+@media (max-width: 46.1875em){
+	#nav, #nav li {
+		display: block;
+	}
+
+	#search-button {
+		display: none;
+	}
+
+	#header {
+		overflow: hidden;
+	}
+
+	#nav > li:first-child {
+		display: inline-block;
+	}
+
+	#nav .more {
+		display: block;
+	}
+
+	#nav li .subnav {
+		background-color: #333;
+		position: initial;
+	}
+
+	#nav li:hover .subnav {
+		background-color: #333;
+	}
+
+	#nav li:hover .subnav a {
+		color: #000;
+	}
+
+	#nav li .subnav a {
+		color: #fff;
+	    padding: 0 40px;
+	}
+
+	#mobile-menu {
+		display: block;
+	    color: #fff;
+	    width: 60px;
+	    height: 46px;
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    text-align: center;
+	}
+
+	#mobile-menu .mobile-menu-icon {
+		line-height: 46px;
+	}
+
+	.mobile-col {
+		width: 100% !important;
+		padding-bottom: 16px !important;
+	}
+
+	#content .tickets-buy-button {
+		margin-top: 16px;
+	}
+
+	#contact .content-infor {
+	    padding: 8px;
+	    width: 100%;
+	    margin-bottom: 8px;
+	}
+
+	#contact .content-left {
+    	width: 100%;
+    	margin-bottom: 18px;
+    }
+
+	#contact .content-right {
+	    width: 100%;
+    }
+
+    #contact .content-row-bottom {
+    	margin-top: 0px;
+    }
+
+
+}
+
+@media (max-height: 376px) {
+	#content .modal-background .modal-content {
+		max-width: 80%;
+		max-height: 100%;
+	}
+
+    #content .modal-background .modal-heading {
+	    height: 60px !important;
+	}
+
+	#content .modal-background .modal-about {
+	    padding: 8px 16px;
+	}
+
+	#content .modal-background .modal-label {
+	    margin-bottom: 2px;
+	}
+
+	#content .modal-background .modal-input {
+		margin-bottom: 8px;
+	}
+
+	#content .modal-background .modal-pay {
+		padding: 12px;
+	}
+
+    #content .modal-background .modal-footer {
+	    margin: 8px 16px;
+    }
+
+}
